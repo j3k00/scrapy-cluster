@@ -1,7 +1,7 @@
 ---
 # Update apt-cache and install the latest packages
 - hosts: all
-  sudo: yes
+  become: yes
   roles:
     - common
 
